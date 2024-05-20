@@ -1,0 +1,182 @@
+/* General styles */
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%; 
+    height: 80%;
+    object-fit: cover; /* Ensure the video covers the entire viewport */
+    z-index: -1;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.5s ease, box-shadow 0.5s ease;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #333;
+    transition: color 0.5s ease;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: color 0.5s ease;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    color: #FF5733;
+}
+
+/* Contact section styles */
+#contact {
+    padding-top: 40px;
+    text-align: center;
+}
+
+#contact h2,
+#contact p {
+    margin-bottom: 20px;
+    transition: color 0.5s ease;
+    font-size: 24px;
+}
+
+#contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact ul li {
+    margin-bottom: 10px;
+}
+
+#contact ul ul {
+    margin-top: 5px;
+}
+
+#contact ul ul li {
+    margin-bottom: 5px;
+}
+
+#contact ul a {
+    color: #007bff;
+    transition: color 0.5s ease;
+}
+
+#contact ul a:hover {
+    text-decoration: underline;
+    color: #FF5733;
+}
+
+/* Footer styles */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+    font-size: 14px;
+}
+
+/* Additional styles for theme */
+
+/* Header styles */
+.header {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #FF5733;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: color 0.5s ease, text-shadow 0.5s ease;
+}
+
+.header p {
+    font-size: 20px;
+    color: #555;
+}
+
+/* Button styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #FF5733;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+}
+
+.button:hover {
+    background-color: #FF8C42;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+    .navbar a {
+        font-size: 16px;
+    }
+}
+
+.welcome-title:nth-child(1) { color: #d1300c; }
+.welcome-title:nth-child(2) { color: #ddd7d4; }
+.welcome-title:nth-child(3) { color: #FFC300; }
+.welcome-title:nth-child(4) { color: #FFD700; }
+.welcome-title:nth-child(5) { color: #FFFF00; }
+.welcome-title:nth-child(6) { color: #C0C0C0; }
+.welcome-title:nth-child(7) { color: #708090; }
+.welcome-title:nth-child(8) { color: #1E90FF; }
+.welcome-title:nth-child(9) { color: #6A5ACD; }
+.welcome-title:nth-child(10) { color: #800000; }
+.welcome-title:nth-child(11) { color: #FF5733; }
+.welcome-title:nth-child(12) { color: #FF8C42; }
+.welcome-title:nth-child(13) { color: #FFC300; }
+.welcome-title:nth-child(14) { color: #FFD700; }
+.welcome-title:nth-child(15) { color: #FFFF00; }
+.welcome-title:nth-child(16) { color: #C0C0C0; }
+.welcome-title:nth-child(17) { color: #708090; }
+.welcome-title:nth-child(18) { color: #1E90FF; }
+.welcome-title:nth-child(19) { color: #6A5ACD; }
+.welcome-title:nth-child(20) { color: #800000; }
+.welcome-title:nth-child(21) { color: #FF5733; }
+.welcome-title:nth-child(22) { color: #FF8C42; }
+.welcome-title:nth-child(23) { color: #FFC300; }
+.welcome-title:nth-child(24) { color: #FFD700; }
+.welcome-title:nth-child(25) { color: #FFFF00; }
+.welcome-title:nth-child(26) { color: #C0C0C0; }
+.welcome-title:nth-child(27) { color: #708090; }
+.welcome-title:nth-child(28) { color: #1E90FF; }
+.welcome-title:nth-child(29) { color: #6A5ACD; }
+.welcome-title:nth-child(30) { color: #800000; }
+.welcome-title:nth-child(31) { color: #FF5733; }

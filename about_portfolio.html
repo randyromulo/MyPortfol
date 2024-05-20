@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me & Portfolio - Randy Romulo Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Additional styles for About Me section */
+        #about {
+            background: 100vh;
+            color: rgba(255, 255, 255, 0.8); /* Transparent white text color */
+            font-size: 24px; /* Larger font size */
+            transition: font-size 0.3s ease; /* Transition effect for font size */
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        /* Hover effect to increase font size */
+        #about:hover {
+            font-size: 28px; /* Increase font size on hover */
+        }
+
+        /* Video background styles */
+        #background-video {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%; 
+            min-height: 100%;
+            width: auto; 
+            height: auto;
+            z-index: -1;
+        }
+
+        /* Container styles */
+        .container {
+            margin: 50px auto;
+            padding: 20px;
+            max-width: 800px;
+            background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+            border-radius: 10px;
+        }
+
+        /* About Me text styles */
+        #about p {
+            margin-bottom: 10px;
+        }
+
+        /* Portfolio section styles */
+        #portfolio {
+            margin-top: 50px;
+            color: rgba(255, 255, 255, 0.8); /* Transparent white text color */
+        }
+
+        #portfolio p {
+            margin-bottom: 5px; /* Adjust margin for better spacing */
+        }
+
+        .profile-image {
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .social-links {
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+
+        .social-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="index.html#about">About</a>
+        <a href="education.html">Education</a>
+        <a href="skills.html">Skills</a>
+        <a href="index.html#contact">Contact</a>
+        <a href="hobbies.html" target="_blank">Hobbies</a>
+        <a href="photos.html" target="_blank">View Photos</a>
+    </div>
+
+    <video autoplay muted loop id="background-video">
+        <source src="Sunrise.mp4" type="video/mp4">
+        <!-- Idagdag ang mga alternate sources dito kung kinakailangan para sa ibang mga browser -->
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="container" id="about">
+        <h2 style="color: aquamarine;">About Me</h2>
+        <p style="color: rgb(250, 250, 250); font-weight: bold;" >I'm Randy Romulo, a simple individual living a quiet life. I consider myself an introvert person who values simplicity and authenticity.</p>
+        <p style="color: black; font-weight: bold;">In terms of career, my objective is to continuously grow and develop in my field, aiming to contribute positively to any organization I am part of. I take pride in my accomplishments, no matter how small they may seem.</p>
+        <p style="color: black; font-weight: bold;">I want to improve my video editing and dancing. These hobbies allow me to express myself creatively and unwind after a long day.</p>
+        <p style="color: black; font-weight: bold;"> Thank you for taking the time to learn more about me. Feel free to connect with me through the provided links.</p>
+        <video controls style="max-width: 100%;">
+            <source src="birthday.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <video controls style="max-width: 100%;">
+            <source src="vlog.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="container" id="portfolio">
+        <h2>Portfolio</h2>
+        <p><strong>Name:</strong> Randy Romulo</p>
+        <p><strong>Age:</strong> 22 years old</p>
+        <p><strong>Birthday:</strong> August 12, 2001</p>
+        <p><strong>Location:</strong> Brgy Trinidad, Calbayog City, Purok 7</p>
+        <img src="image1.jpg" alt="Randy Romulo" class="profile-image" width="500" height="500">
+        <p>Additional details about <a href="experiences.html" target="_blank">my experiences</a> here.</p>
+        <p> My Social Media profiles.</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=100005354358085" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/romulorandy?igsh=MXN2aXc1OThnNnJtYQ==" target="_blank">Instagram</a>
+            <!-- Add more social media links here if needed -->
+        </div>
+    </div>
+</body>
+</html>

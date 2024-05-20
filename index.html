@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Randy Romulo Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Content ng iyong webpage -->
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <style>
+        /* CSS styles here */
+        #background-video {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%; 
+            min-height: 100%;
+            width: 90; 
+            height: 90;
+            z-index: -1;
+        }
+
+        body {
+            background-color: transparent; /* Kulay ng background */
+        }
+
+        .container {
+            background-color: transparent; /* Kulay ng laman */
+            border-radius: 10px; /* Pahaba ng border */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Epekto ng anino */
+        }
+
+        .navbar {
+            background-color: #333; /* Kulay ng navbar */
+       }
+
+        .navbar a {
+            color: #fff; /* Kulay ng mga link sa navbar */
+       }
+
+        .navbar a:hover {
+            text-decoration: none;
+            color: #ddd; /* Kulay ng link sa hover */
+       }
+
+        #contact-form input[type="submit"] {
+             background-color: #4CAF50; /* Kulay ng submit button sa contact form */
+       }
+
+       #contact-form input[type="submit"]:hover {
+             background-color: #45a049; /* Kulay ng submit button sa contact form sa hover */
+       }
+
+       /* Copyright text styles */
+       .copyright {
+            text-align: center;
+            margin-top: 20px;
+            color: #666;
+            font-size: 14px;
+       }
+</style>
+
+    </style>
+</head>
+<body>
+    <video autoplay muted loop id="background-video">
+        <source src="Network.mp4" type="video/mp4">
+        <!-- Idagdag ang mga alternate sources dito kung kinakailangan para sa ibang mga browser -->
+        Your browser does not support the video tag.
+    </video>
+
+   <div class="navbar">
+    
+    <a href="#home" name="home">Home</a>
+    <a href="about_portfolio.html">About</a>
+    <a href="education.html">Education</a>
+    <a href="skills.html">Skills</a>
+    <a href="#contact">Contact</a>
+    <a href="hobbies.html" target="_blank">Hobbies</a>
+    <a href="photos.html" target="_blank">View Photos</a>
+
+   </div>
+
+    <div class="container" id="home">
+        <h1 style="color: rgb(208, 221, 176); font-weight: bold; font-size: 250%;">Welcome to Randy Romulo Portfolio</h1>
+        <!-- Search engine -->
+        </div>
+        <p style="text-align: center; font-weight: bold; color: rgb(240, 241, 233);">This portfolio serves as a showcase of my skills, experiences, and achievements. <br>I'm Randy Romulo, and I invite you to explore my journey and learn more about what I have to offer.
+            <br> Feel free to navigate through the different sections using the links above. Thank you for visiting!
+        </p>
+        <img src="image1.jpg" alt="Randy Romulo Profile Picture" style="width: 150px; height: 150px; border-radius: 50%; margin: 20px auto; display: block;">
+        <h1 style="color: rgb(208, 221, 176); font-weight: bold; font-size: 250%;"</h1>
+        <!-- Search engine -->
+    </div>
+       
+    </div>
+
+    <div class="container" id="contact">
+    <h2 style="font-weight: bold; color: rgb(255, 255, 255);">Contact</h2>
+    <p style="font-weight: bold; color: antiquewhite;">Feel free to reach out to me through any of the following channels:</p>
+    <ul style="color: rgb(255, 246, 235);">
+        <li style="font-size: 50%;">Email: romulorandy65@gmail.com</li>
+        <li style="font-size: 50%;">Phone: +639517131867</li>
+        <li>Social Media:</li>
+        <ul style="color: rgb(243, 230, 214);">
+            <li style="font-size: 50%;"><a href="https://www.facebook.com/profile.php?id=100005354358085" target="_blank" class="fa fa-facebook"></a> Randy Romulo</li>
+            <li style="font-size: 50%;"><a href="https://www.instagram.com/romulorandy?igsh=MXN2aXc1OThnNnJtYQ==" target="_blank" class="fa fa-instagram"></a> romulorandy</li>
+            <!-- Replace "facebook_icon.png" and "instagram_icon.png" with the actual paths to your icon images -->
+        </ul>
+       
+    </ul>
+    <p style="font-weight: bold; color: antiquewhite;">Whether you're interested or simply want to connect, I'm looking forward to hearing from you!</p>
+    <form id="contact-form" action="send_email.php" method="POST" style="color: antiquewhite;">
+        <label for="sender-name">Name:</label><br>
+        <input type="text" id="sender-name" name="sender-name" required><br>
+        <label for="sender-email">Email:</label><br>
+        <input type="email" id="sender-email" name="sender-email" required><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br>
+        <button type="submit">Send Message</button>
+    </form>
+    <p class="copyright" style="font-size: 100%; color: antiquewhite;">&copy; 2024 All Rights Reserved</p>
+</div>
+
+    <div id="hobbies"></div> <!-- Anchor point for hobbies section -->
+    <script src="script.js"></script>
+    <script src="typewriter.js" defer></script>
+</body>
+</html>
